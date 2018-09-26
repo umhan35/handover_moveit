@@ -21,7 +21,7 @@ The code here is meant to reproduce the experiment conducted in the handover rel
 - [Baxter SDK](http://sdk.rethinkrobotics.com/wiki/Home)
 - [moveit!](http://sdk.rethinkrobotics.com/wiki/MoveIt_Tutorial#Installation.2FPrerequisites)
 - [libphidget22](https://www.phidgets.com/docs/OS_-_Linux)
-- Python 2 (Pre-installed with Ubuntu 14.04; make sure Python 3 binary is in your path)
+- Python 2 (Pre-installed with Ubuntu 14.04; make sure Python 3 binary is not in your path)
 - Ruby 2.4.4 (any newer version or some old versions compatible with 1.9 should also work)
 - [Recommended] [JetBrains CLion IDE](https://www.jetbrains.com/clion/)
 
