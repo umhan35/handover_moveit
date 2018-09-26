@@ -1,0 +1,22 @@
+be -e
+
+bl
+
+get almost ready:
+/home/zhao/Dropbox/research17fall/experiment/baxter_ws/src/handover_moveit/cmake-build-debug/devel/lib/handover_moveit/get_almost_ready_node
+
+look at participants:
+/home/zhao/Dropbox/research17fall/experiment/baxter_ws/src/handover_moveit/cmake-build-debug/devel/lib/handover_moveit/look_at_participants_node
+
+RUN EXPERIMENT:
+ruby /home/zhao/Dropbox/research17fall/experiment/baxter_ws/src/handover_moveit/run_experiment/run.rb
+
+
+RIGID:
+/home/zhao/Dropbox/research17fall/experiment/baxter_ws/src/handover_moveit/cmake-build-debug/devel/lib/handover_moveit/rigid_release_node
+
+PASSIVE:
+/home/zhao/Dropbox/research17fall/experiment/baxter_ws/src/handover_moveit/cmake-build-debug/devel/lib/handover_moveit/passive_release_node
+
+PROACTIVE:
+/home/zhao/Dropbox/research17fall/experiment/baxter_ws/src/handover_moveit/cmake-build-debug/devel/lib/handover_moveit/proactive_release_node

@@ -1,0 +1,9 @@
+<launch>
+    <node name="joint_trajectory_action_server" pkg="baxter_interface" type="joint_trajectory_action_server.py" required="true" />
+    <include file="$(find handover_moveit)/launch/baxter_moveit_config.launch" />
+
+    <node name="face_node" pkg="handover_moveit" type="face_node" args="$(find handover_moveit)/face/" required="true" />
+    <node name="head_hand_coordination_node" pkg="handover_moveit" type="head_hand_coordination_node" required="true" />
+
+    <node name="phidgets_fsr_libphidget22_node" pkg="phidgets_fsr_libphidget22" type="phidgets_fsr_libphidget22_node"  required="true"/>
+</launch>
