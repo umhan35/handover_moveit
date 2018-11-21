@@ -5,11 +5,9 @@ The code here is meant to reproduce the experiment conducted in the handover rel
 ## Hardware
 
 - [Rethink Baxter robot](https://www.rethinkrobotics.com/baxter/)
-
 - [PhidgetInterfaceKit 8/8/8](https://www.phidgets.com/?tier=3&catid=2&pcid=1&prodid=18)
 - [Voltage Divider](https://www.phidgets.com/?tier=3&catid=49&pcid=42&prodid=92)
 - [Force Sensing Resistor - Interlink Electronics 1.5″ Square 20N ](https://www.phidgets.com/?tier=3&catid=6&pcid=4&prodid=209)
-
 - 2 USB extension cables
   1. Connect PhidgetInterfaceKit to a PC
   2. Connect Voltage Divider to FSR, hide the hardware behind the right shoulder of Baxter
