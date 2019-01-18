@@ -17,7 +17,7 @@ The code here is meant to reproduce the experiment conducted in the handover rel
 - Ubuntu 14.04
 - [ROS indigo](http://wiki.ros.org/indigo/Installation/Ubuntu)
 - [Baxter SDK](http://sdk.rethinkrobotics.com/wiki/Home)
-- [moveit!](http://sdk.rethinkrobotics.com/wiki/MoveIt_Tutorial#Installation.2FPrerequisites)
+- [moveit!](http://sdk.rethinkrobotics.com/wiki/MoveIt_Tutorial#Installation.2FPrerequisites) -- select the indigo branch in the git repo
 - [libphidget22](https://www.phidgets.com/docs/OS_-_Linux)
 - Python 2 (Pre-installed with Ubuntu 14.04; make sure Python 3 binary is not in your path)
 - Ruby 2.4.4 (any newer version or some old versions compatible with 1.9 should also work)
@@ -39,4 +39,4 @@ get almost ready: `rosrun handover_moveit get_almost_ready_node`
 
 look at participants: `rosrun handover_moveit look_at_participants_node`
 
-run the experiment: ruby run_experiment/run.rb
+run the experiment: `ruby run_experiment/run.rb`
