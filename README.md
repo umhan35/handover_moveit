@@ -1,6 +1,6 @@
 # handover_moveit
 
-The code here is meant to reproduce the experiment conducted in the handover release paper by Zhao Han and Holly Yanco, The Effects of Proactive Release Behavior during Human-Robot Handovers, submitted to HRI 2019.
+The code here is meant to reproduce the experiment conducted in the handover release paper by Zhao Han and Holly Yanco, The Effects of Proactive Release Behavior during Human-Robot Handovers, accepted by HRI 2019.
 
 ## Hardware
 
